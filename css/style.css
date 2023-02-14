@@ -1,15 +1,72 @@
+  /* Dort habe ich den Hintergrund gemacht, der Link ist das Hintergrund Bild. */
 body {
- background-image: url("https://images.unsplash.com/photo-1548679847-1d4ff48016c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xlYW4lMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80");
+ background-image: url("https://img.freepik.com/fotos-kostenlos/luxurioeser-blauer-geometrischer-hintergrund-mit-exemplar_24972-1792.jpg");
  background-color: #cccccc;
  background-size: 2000px;
 }
+  /* In der Section sind die 2 Header und das Automatische Weiterleiten. */
+section{
+
+}
+  /* Das ist die Postion für den Button. */
+button{
+  position: relative;
+  left: 575px;
+  bottom: -175px;
+}
+  /* Hier wird bestimmt das dein Mauszeiger der Pointer ist. */
+#button:hover{
+    cursor: pointer;
+}
+  /* Das hier ist ein Design wenn du mit deinem Mauszeiger auf den Button gehst. */
+#button:hover {
+    background-color: inherit;
+    box-shadow: 0 0 10px 0 #3498DB inset, 0 0 10px 14px #3498DB;
+}
+  /* Das hier ist das eigentliche Button Design. */
+#button {
+    margin: 20px;
+    background-color: #3498DB;
+    border: 5px solid #3498DB;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-sizing: content-box;
+    width: 200px;
+    height: 70px;
+      /* Das hier ist der erste Header mit Farbe und Position */
+}
 #Weiterleitung{
-  color: purple;
+  color: white;
   text-align: center;
   font-size: 75px;
+  position: relative;
+  width: 1200px;
+  left: 100px;
+  bottom: -200px;
 }
+  /* Das hier ist der 2 Header mit Farbe und Position */
 #Info{
-  color: orange;
+  color: white;
   text-align: center;
   font-size: 40px;
+  position: relative;
+  width: 1200px;
+  left: 100px;
+  bottom: -200px;
+}
+  /* Bitte lass das hier währe nett, ist für Credits :^) */
+#Copy{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  width: 1200px;
+  left: 100px;
+  bottom: -300px;
+}
+  /* Bitte lass das hier währe nett, ist für Credits :^) */
+#Link{
+  color: white;
 }
